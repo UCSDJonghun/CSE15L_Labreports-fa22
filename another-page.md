@@ -13,8 +13,7 @@
 2. Two
 3. Three
 
-Horizontal rule:
----
+------------------------------------------
 
 `System.out.println("Hello World");` Hello
 
