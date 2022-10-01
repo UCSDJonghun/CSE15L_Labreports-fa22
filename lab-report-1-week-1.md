@@ -11,4 +11,16 @@ First I downlad the app https://code.visualstudio.com/.
 
 ![image](https://user-images.githubusercontent.com/114322721/193393265-e9f949ff-32dc-4027-b82a-ab0cf58b030e.png)
 
-I opened "Terminal" and "Nwe Terminal". I typed the command 'ssh cs15lfa22lp@ieng6.ucsd.edu.'
+I opened "Terminal" and "Nwe Terminal". I typed the command `ssh cs15lfa22lp@ieng6.ucsd.edu.`
+
+# 3: Run Some Commands.
+
+![image](https://user-images.githubusercontent.com/114322721/193393368-2bacaae7-2246-491d-87ba-b9bd4cd27c57.png)
+
+I printed "Hello.txt" as shown in the screenshot.
+
+# 4: Moving Files over SSH with scp
+
+![image](https://user-images.githubusercontent.com/114322721/193393525-2308a8da-9d46-4b3e-9757-f4c9e28c8c98.png)
+
+I created a file "WhereAmI.java" and I typed code `cs15lfa22lp@ieng6.ucsd.edu:~\` which send the "WhereAmI.java" to the remote server.
