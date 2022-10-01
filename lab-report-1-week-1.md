@@ -11,4 +11,4 @@ First I downlad the app https://code.visualstudio.com/.
 
 ![image](https://user-images.githubusercontent.com/114322721/193393265-e9f949ff-32dc-4027-b82a-ab0cf58b030e.png)
 
-I opened "Terminal" and "Nwe Terminal". I typed the command $ssh cs15lfa22lp@ieng6.ucsd.edu.
+I opened "Terminal" and "Nwe Terminal". I typed the command 'ssh cs15lfa22lp@ieng6.ucsd.edu.'
