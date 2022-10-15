@@ -1,4 +1,4 @@
-** Search Engine **
+**Search Engine**
 #
 import java.io.IOException;
 import java.net.URI;
