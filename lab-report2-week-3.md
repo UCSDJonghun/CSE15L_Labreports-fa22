@@ -68,8 +68,8 @@ To add a word, you need to append /add?s=anewstringtoadd
 ## Part2 
 
                                              
-#@Test
-  public void testReversed1() {
+@Test
+ # public void testReversed1() {
     int[] input1 = { 3, 2, 1 };
     int[] output1 = ArrayExamples.reversed(input1);
     assertArrayEquals(new int[] { 1, 2, 3 }, output1);
