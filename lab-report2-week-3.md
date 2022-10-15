@@ -30,7 +30,7 @@ class Handler implements URLHandler {
         }
         return "404 not found!";
     }
-}
+}#
 class SearchEngine {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
