@@ -46,6 +46,14 @@ class SearchEngine {
 ## Screenshort                             
 ![image](https://user-images.githubusercontent.com/114322721/195969968-58b33225-4ba9-4052-9a23-ce03f9d0755d.png)
                                              
+To add a word, you need to append /add?s=anewstringtoadd
+
+/add?s=pineapple
+
+/add?s=apple
+
+/search?s=app= and the word to the end of the URL, and the word should be printed out on the website.
+                                             
 ![image](https://user-images.githubusercontent.com/114322721/195970672-75e912d3-6f9a-4640-ae3a-a374123e6b01.png)
                                              
 ![image](https://user-images.githubusercontent.com/114322721/195970763-04a92f26-1617-48ea-994f-3799ce6c054e.png)
@@ -55,3 +63,4 @@ class SearchEngine {
 
 ![image](https://user-images.githubusercontent.com/114322721/195970711-d2984343-bbb3-4a9e-94cf-899ee4aece6a.png)
 
+"/search?s=something" is finding word include in something word.
