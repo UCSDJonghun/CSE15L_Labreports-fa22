@@ -1,9 +1,10 @@
 ## Search Engine
 
+#
 import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
-#
+
 class Handler implements URLHandler {
     ArrayList<String> terms = new ArrayList<String>();
 
@@ -31,7 +32,6 @@ class Handler implements URLHandler {
         return "404 not found!";
     }
 }
-# 
 class SearchEngine {
     public static void main(String[] args) throws IOException {
         if (args.length == 0) {
