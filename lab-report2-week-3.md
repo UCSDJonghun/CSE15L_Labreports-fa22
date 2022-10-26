@@ -84,6 +84,7 @@ For the /add and /search I used the handleRequest function and the argument of t
 2. The symptom : arrays first differed at element [0]; expected:<8> but was:<1>
 
 3. The bug: 
+    #
     reverseInPlace changed:
     int[] newArray = new int[arr.length];
     for (int i = 0; i < arr.length; i += 1) {
