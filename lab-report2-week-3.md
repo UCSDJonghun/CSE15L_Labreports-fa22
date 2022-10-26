@@ -75,19 +75,17 @@ For the /add and /search I used the handleRequest function and the argument of t
 
 # Part2
 
-1. The failure inducing input  int[] input1 = { 3, 2, 1 };
+1. The failure inducing input  int[] input1 = { 3, 8, 1 };
     int[] output1 = ArrayExamples.reversed(input1);
-    assertArrayEquals(new int[] { 1, 2, 3 }, output1);
+    assertArrayEquals(new int[] { 8, 3, 1 }, output1);
 
 2. The symptom : arrays first differed at element [0]; expected:<8> but was:<1>
 
 3. The bug: 
-    reverseInPlace changed:
-    int[] newArray = new int[arr.length];
-    for (int i = 0; i < arr.length; i += 1) {
-      newArray[arr.length - i - 1] = arr[i];
-    }
-    return newArray;
+   for(int i = 0; i < arr.length; i += 1) {
+    newArray[arr.length - i - 1] = arr[i];
+  }
+  return newArray;
 
 
   
