@@ -60,32 +60,36 @@ I first added an "anwestringtoadd: my code is ( /add?s=anewstringtoadd)
                                              
 ![image](https://user-images.githubusercontent.com/114322721/195970763-04a92f26-1617-48ea-994f-3799ce6c054e.png)
                                              
-/add?s=pineapple
+And added pineapple with this code (/add?s=pineapple)
 
 ![image](https://user-images.githubusercontent.com/114322721/195970772-27cb2c62-491b-439c-992e-29858f041170.png)
                                              
-/add?s=apple
+Also I added apple with this code(/add?s=apple)
 
 
 ![image](https://user-images.githubusercontent.com/114322721/195970711-d2984343-bbb3-4a9e-94cf-899ee4aece6a.png)
 
+I this time tried to search for strings in the string so i used this code("/search?s=app)
+so i got pinapple apple
 "/search?s=something" is finding word include in something word.
 
 For the /add and /search I used the handleRequest function and the argument of the method I am using my page URL. The URL changes only if I edit it, it does not change when the function is called. If the values in the array change, by the time the request is done processing it changed by adding another value in the array if I used /add or displaying the required element when I used /search.
 
 # Part2
 
-1. The failure inducing input  int[] input1 = { 3, 8, 1 };
+1. The failure inducing input  int[] input1 = { 3, 2, 1 };
     int[] output1 = ArrayExamples.reversed(input1);
-    assertArrayEquals(new int[] { 8, 3, 1 }, output1);
+    assertArrayEquals(new int[] { 1, 2, 3 }, output1);
 
 2. The symptom : arrays first differed at element [0]; expected:<8> but was:<1>
 
 3. The bug: 
-   for(int i = 0; i < arr.length; i += 1) {
-    newArray[arr.length - i - 1] = arr[i];
-  }
-  return newArray;
+    reverseInPlace changed:
+    int[] newArray = new int[arr.length];
+    for (int i = 0; i < arr.length; i += 1) {
+      newArray[arr.length - i - 1] = arr[i];
+    }
+    return newArray;
 
 
   
