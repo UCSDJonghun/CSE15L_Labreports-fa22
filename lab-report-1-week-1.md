@@ -35,3 +35,13 @@ I logged out of the remote server, and made a file WhereAmI.java. Running scp Wh
 ![image](https://user-images.githubusercontent.com/114322721/197944278-dc4200ea-2c33-409c-9403-4ea499343b19.png)
 
 To setup an SSH key, first use key-gen to generate an ssh key
+
+# Optimizing Remote Running
+
+![image](https://user-images.githubusercontent.com/114322721/197950499-05010708-10d8-46dc-8e63-e559fcc22d67.png)
+
+We can see that ls listed the files we have on the server. We call the command on our local directory and, after the call, we are still in our local directory. We do not remain in the server.
+
+![image](https://user-images.githubusercontent.com/114322721/197950234-f3436b8c-f33e-4d11-8b09-21c117cc22d1.png)
+
+On the second command, ssh compiles and runs WhereAmI.java. From the results that are printed out, we can tell that the compile-and-run process was finished on the server, since the OS is linux but not Windows (my pc is Windows). Before and after the command, we all stay in our local directory, while the java program was run on the server.
