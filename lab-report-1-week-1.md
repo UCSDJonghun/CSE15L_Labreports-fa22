@@ -25,3 +25,7 @@ I printed "Hello.txt" as shown in the screenshot. I got Hello World.
 ![image](https://user-images.githubusercontent.com/114322721/193393525-2308a8da-9d46-4b3e-9757-f4c9e28c8c98.png)
 
 I created a file "WhereAmI.java" and I typed code `cs15lfa22lp@ieng6.ucsd.edu:~\` which send the "WhereAmI.java" to the remote server.
+
+![image](https://user-images.githubusercontent.com/114322721/197942353-f780512c-d7e8-48e3-a33d-0cd87a1468d5.png)
+
+I logged out of the remote server, and made a file WhereAmI.java. Running scp WhereAmI.java cs15lfa22lp@ieng6.ucsd.edu:~/.
