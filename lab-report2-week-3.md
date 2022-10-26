@@ -56,16 +56,24 @@ To add a word, you need to append /add?s=anewstringtoadd
                                              
 ![image](https://user-images.githubusercontent.com/114322721/195970672-75e912d3-6f9a-4640-ae3a-a374123e6b01.png)
                                              
+I first added an "anwestringtoadd: my code is ( /add?s=anewstringtoadd) 
+                                             
 ![image](https://user-images.githubusercontent.com/114322721/195970763-04a92f26-1617-48ea-994f-3799ce6c054e.png)
+                                             
+/add?s=pineapple
 
 ![image](https://user-images.githubusercontent.com/114322721/195970772-27cb2c62-491b-439c-992e-29858f041170.png)
+                                             
+/add?s=apple
 
 
 ![image](https://user-images.githubusercontent.com/114322721/195970711-d2984343-bbb3-4a9e-94cf-899ee4aece6a.png)
 
 "/search?s=something" is finding word include in something word.
 
-## Part2 
+For the /add and /search I used the handleRequest function and the argument of the method I am using my page URL. The URL changes only if I edit it, it does not change when the function is called. If the values in the array change, by the time the request is done processing it changed by adding another value in the array if I used /add or displaying the required element when I used /search.
+
+# Part2
 
 1. The failure inducing input  int[] input1 = { 3, 2, 1 };
     int[] output1 = ArrayExamples.reversed(input1);
