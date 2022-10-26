@@ -1,4 +1,5 @@
-**Search Engine**
+# Search Engine
+
 #
 import java.io.IOException;
 import java.net.URI;
@@ -43,7 +44,7 @@ class SearchEngine {
 }
                                              
                                           
-## Screenshort                             
+# Screenshort                             
 ![image](https://user-images.githubusercontent.com/114322721/195969968-58b33225-4ba9-4052-9a23-ce03f9d0755d.png)
                                              
 To add a word, you need to append /add?s=anewstringtoadd
