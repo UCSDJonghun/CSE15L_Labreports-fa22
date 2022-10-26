@@ -1,7 +1,7 @@
 # Search Engine
 
 
-'import java.io.IOException;
+"import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
@@ -41,7 +41,7 @@ class SearchEngine {
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-}'
+}"
                                              
                                           
 # Screenshort                             
@@ -86,12 +86,12 @@ For the /add and /search I used the handleRequest function and the argument of t
 
 3. The bug: 
     
-    'reverseInPlace changed:
+    "reverseInPlace changed:
     int[] newArray = new int[arr.length];
     for (int i = 0; i < arr.length; i += 1) {
       newArray[arr.length - i - 1] = arr[i];
     }
-    return newArray;'
+    return newArray;"
 
 
   
