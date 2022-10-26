@@ -1,7 +1,7 @@
 # Search Engine
 
 
-"import java.io.IOException;
+import java.io.IOException;
 import java.net.URI;
 import java.util.ArrayList;
 
@@ -41,7 +41,7 @@ class SearchEngine {
         int port = Integer.parseInt(args[0]);
         Server.start(port, new Handler());
     }
-}"
+}
                                              
                                           
 # Screenshort                             
@@ -86,12 +86,25 @@ For the /add and /search I used the handleRequest function and the argument of t
 
 3. The bug: 
     
-    "reverseInPlace changed:
+    reverseInPlace changed:
     int[] newArray = new int[arr.length];
     for (int i = 0; i < arr.length; i += 1) {
       newArray[arr.length - i - 1] = arr[i];
     }
-    return newArray;"
+    return newArray;
 
+I interchanged newArray and the index for arr and replaced the return statement from arr to newArray.
 
-  
+The bug was that the new list was not having any values assigned to it 
+
+arr[i] = newArray[arr.length - i - 1];
+
+To this code 
+                                   
+newArray[arr.length - i - 1] = arr[i];
+
+# The Connection
+
+The symptom was that the new array was essentailly emtpy
+The bug was that no element were being put into the new list
+The bug caused the symptom when given any input in which the elements in the array are non-zero
