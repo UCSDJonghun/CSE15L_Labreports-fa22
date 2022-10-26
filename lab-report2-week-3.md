@@ -109,3 +109,21 @@ newArray[arr.length - i - 1] = arr[i];
 * The symptom was that the new array was essentailly emtpy
 * The bug was that no element were being put into the new list
 * The bug caused the symptom when given any input in which the elements in the array are non-zero
+                                   
+The second bug I found was on the merge function in ListExamples.java:
+
+The failure-inducing input: @Test public void mergetest1() { List listA = List.of("a", "b", "g"); List listB = List.of("c", "f", "w"); List listC = List.of("a", "b", "c", "f", "g", "w"); assertEquals (listC, ListExamples.merge(listA, listB)); }
+
+The symptom:
+
+initializationError(org.junit.runner.JUnitCommandLineParseResult) Caused by: java.lang.ClassNotFoundException: ListTest
+
+The bug:
+while(index2 < list2.size()) {
+    result.add(list2.get(index2));
+    index1 += 1;
+  }                            
+I replaced index1 with index2.
+
+
+The index that was being incremented was index 1 not index 2, which caused the error.
