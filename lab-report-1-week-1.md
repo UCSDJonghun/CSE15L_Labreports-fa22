@@ -29,3 +29,9 @@ I created a file "WhereAmI.java" and I typed code `cs15lfa22lp@ieng6.ucsd.edu:~\
 ![image](https://user-images.githubusercontent.com/114322721/197942353-f780512c-d7e8-48e3-a33d-0cd87a1468d5.png)
 
 I logged out of the remote server, and made a file WhereAmI.java. Running scp WhereAmI.java cs15lfa22lp@ieng6.ucsd.edu:~/.
+
+# ssh key
+
+![image](https://user-images.githubusercontent.com/114322721/197944278-dc4200ea-2c33-409c-9403-4ea499343b19.png)
+
+To setup an SSH key, first use key-gen to generate an ssh key
