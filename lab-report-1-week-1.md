@@ -18,7 +18,7 @@ I opened "Terminal" and "New Terminal". I typed the command `ssh cs15lfa22lp@ien
 ![image](https://user-images.githubusercontent.com/114322721/197934393-f96dab05-cafa-4df2-8d72-7d5c7d17a501.png)
 )
 
-I printed "Hello.txt" as shown in the screenshot.
+I printed "Hello.txt" as shown in the screenshot. I got Hello World. 
 
 # 4: Moving Files over SSH with scp
 
