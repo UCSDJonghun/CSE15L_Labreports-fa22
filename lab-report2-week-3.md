@@ -105,6 +105,6 @@ newArray[arr.length - i - 1] = arr[i];
 
 # The Connection
 
-The symptom was that the new array was essentailly emtpy
-The bug was that no element were being put into the new list
-The bug caused the symptom when given any input in which the elements in the array are non-zero
+* The symptom was that the new array was essentailly emtpy
+* The bug was that no element were being put into the new list
+* The bug caused the symptom when given any input in which the elements in the array are non-zero
