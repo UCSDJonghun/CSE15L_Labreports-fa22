@@ -88,7 +88,7 @@ For the /add and /search I used the handleRequest function and the argument of t
     
     reverseInPlace changed:
     
-    # int[] newArray = new int[arr.length];
+    #int[] newArray = new int[arr.length];
     for (int i = 0; i < arr.length; i += 1) {
       newArray[arr.length - i - 1] = arr[i];
     }
@@ -98,11 +98,11 @@ I interchanged newArray and the index for arr and replaced the return statement 
 
 The bug was that the new list was not having any values assigned to it 
 
-# arr[i] = newArray[arr.length - i - 1];
+#arr[i] = newArray[arr.length - i - 1];
 
 To this code 
                                    
-# newArray[arr.length - i - 1] = arr[i];
+#newArray[arr.length - i - 1] = arr[i];
 
 # The Connection
 
