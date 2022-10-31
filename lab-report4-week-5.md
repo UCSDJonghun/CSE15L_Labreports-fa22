@@ -138,7 +138,7 @@ technical/biomed/1471-2121-2-12.txt:1488:        p14 Arfgene [ 2]. p14 Arfbinds 
 and sequesters mdm2,
 technical/biomed/1471-2164-4-6.txt:22248:        http://www.cstl.nist.gov/biotech/strbase/fbicore.htm.
 ```
-* The unmbers are also the block number.
+* The nmbers are also the block number such as 42519,42711,1488, and 22248
 
 ## The 'grep' command: Option -w
 
