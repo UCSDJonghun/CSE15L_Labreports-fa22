@@ -1,5 +1,7 @@
 # Week 5 Lab Report
 
+* The grep command allows you to search one file or multiple files for lines that contain a pattern. Exit status is 0 if matches were found, 1 if no matches were found, and 2 if errors occurred.
+
 ## The 'grep' command: Option -i
 
 * when searching ignore uppercase vs lowercase.
