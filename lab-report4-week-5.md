@@ -2,7 +2,7 @@
 
 ## The 'grep' command: Option -r
 
-[cs15lfa22lp@ieng6-201]:skill-demo1:167$ grep -r "Korea" technical/*/*.txt       
+# [cs15lfa22lp@ieng6-201]:skill-demo1:167$ grep -r "Korea" technical/*/*.txt       
 technical/911report/chapter-11.txt:                in Korea another. But these were attacks by major powers. While by no means as
 technical/911report/chapter-11.txt:                the main focus (war in Korea), and as too unrealistic. As we pointed out in chapter
 technical/911report/chapter-12.txt:                not experienced such a rapid surge in national security spending since the Korean
