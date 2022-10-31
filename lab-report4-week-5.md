@@ -2,7 +2,7 @@
 
 ## The 'grep' command: Option -i
 
-* It is usful because when searching ignore uppercase vs lowercase.
+* when searching ignore uppercase vs lowercase.
 
 Example 1: "Korea"
 
