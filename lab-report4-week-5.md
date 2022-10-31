@@ -84,3 +84,17 @@ technical/plos/journal.pbio.0020064.txt:        the UCSD–NIDCR researchers too
 ```
 
 * I find all words includ "ucsd" but all words are "UCSD" instead of "ucsd"
+
+## The 'grep' command: Option -b
+
+* Display the block number at the beginning of each line.
+
+* Example "ucsd"
+
+```
+[cs15lfa22lp@ieng6-201]:skill-demo1:178$ grep -b "ucsd" technical/*/*.txt
+technical/biomed/1471-2121-2-22.txt:9834:        http://ncmir.ucsd.edu/~perkins/tBid. For example, it became
+technical/biomed/1471-2164-3-18.txt:39199:          http://genome.ucsd.edu/index.html [ 54 55 ] . The
+```
+
+* 9834 and 39199 is the block number at the beginning of each line.
