@@ -26,6 +26,7 @@ technical/biomed/1472-6823-2-2.txt:          Korea). No information that would i
 technical/biomed/1472-6920-2-3.txt:        South Korea [ 5 ] and for a Turkish medical school [ 6 ] .
 technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic of Korea, but surveillance has not been thorough in North
 ```
+* I got all words include "Korea" 
 
 Example 2: "fbi"
 ```
@@ -53,4 +54,33 @@ technical/biomed/1471-2121-2-12.txt:        p14 Arfgene [ 2]. p14 Arfbinds to an
 technical/biomed/1471-2164-4-6.txt:        http://www.cstl.nist.gov/biotech/strbase/fbicore.htm.
 technical/biomed/gb-2002-3-10-research0055.txt:          TGFBI, LPL and LDLR were the origin of serious disorders:
 ```
-* There are more results
+* There are more results. I typed "fbi" it finds instances of "FBI" because it ignores cases
+
+Example 3: "ucsd"
+```
+[cs15lfa22lp@ieng6-201]:skill-demo1:171$ grep -i "ucsd" technical/*/*.txt
+technical/biomed/1471-2091-3-30.txt:        Insel, UCSD) demonstrated constitutive 
+activation of ERKs
+technical/biomed/1471-2121-2-22.txt:        http://ncmir.ucsd.edu/~perkins/tBid. For example, it became
+technical/biomed/1471-2164-3-18.txt:          http://genome.ucsd.edu/index.html [ 54 55 ] . The
+technical/biomed/1471-2407-2-15.txt:          UCSD Viral Vector Core. The plasmids 
+were co-transfected
+technical/biomed/1471-2407-2-15.txt:          approved by the animal care committee at UCSD. The cells
+technical/biomed/1471-244X-3-5.txt:          UCSD Medical Center, La Jolla, during 
+July and August of
+technical/biomed/1472-6823-2-2.txt:          respective local human IRBs (UCSD, La 
+Jolla, CA; Veterans
+technical/biomed/1476-4598-2-2.txt:          Ludwig Institute of Cancer Research at UCSD. The tumor
+technical/biomed/bcr620.txt:          UCSD Medical Center. Samples were obtained in random
+technical/biomed/bcr620.txt:          approval of the UCSD Institutional Review Board for
+technical/plos/journal.pbio.0020064.txt:        field, including collaborators Charles Zuker (University of California, San Diego [UCSD],
+technical/plos/journal.pbio.0020064.txt:        The bitter receptors fell first to 
+the onslaught of the UCSD–NIDCR team and other
+technical/plos/journal.pbio.0020064.txt:        UCSD–NIDCR researchers used the draft of the human genome to search for sequences that
+technical/plos/journal.pbio.0020064.txt:        T1R3, a third member of the T1R family. The UCSD–NIDCR team subsequently showed that the
+technical/plos/journal.pbio.0020064.txt:        knockout mice behaved differently, 
+but the UCSD–NIDCR researchers suggest that the residual
+technical/plos/journal.pbio.0020064.txt:        the UCSD–NIDCR researchers took PLCβ2 knockout mice, which did not respond to bitter,
+```
+
+* I find all words includ "ucsd" but all words are "UCSD" instead of "ucsd"
