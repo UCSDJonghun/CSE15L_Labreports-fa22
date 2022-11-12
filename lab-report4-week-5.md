@@ -92,7 +92,8 @@ technical/plos/journal.pbio.0020064.txt:        the UCSD–NIDCR researchers too
 ## The 'grep' command: Option -b
 
 * Display the block number at the beginning of each line.
-useful : -B is the option which prints the specified N lines before the match. When doing a grep on a huge file, it may be useful to see some lines after the match.
+* Useful : -B is the option which prints the specified N lines before the match. When doing a grep on a huge file, it may be useful to see some lines after the match.
+
 Example "ucsd"
 
 ```
@@ -147,7 +148,7 @@ technical/biomed/1471-2164-4-6.txt:22248:        http://www.cstl.nist.gov/biotec
 ## The 'grep' command: Option -w
 
 * Display matching whole word.
-* useful : searching for whole word, so we can find only typing word will show out all the lines eventhought the word is normal.
+* Useful : searching for whole word, so we can find only typing word will show out all the lines eventhought the word is normal.
 
 Example "fbi"
 
