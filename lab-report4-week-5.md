@@ -5,6 +5,7 @@
 ## The 'grep' command: Option -i
 
 * when searching ignore uppercase vs lowercase.
+* Useful : This searches for the given string/pattern case insensitively. so it masthces all the words insensitively as shown below.
 
 Example 1: "Korea"
 
@@ -32,6 +33,7 @@ technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic o
 
 Example 2: "fbi"
 ```
+[cs15lfa22lp@ieng6-201]:skill-demo1:168$ grep -i "fbi" technical/*/*.txt      
 technical/911report/chapter-8.txt:            On September 4, the FBI sent a teletype to the CIA, the FAA, the Customs Service, the
 technical/911report/chapter-8.txt:                Moussaoui, FBI headquarters instructed Minneapolis that it could not share the more
 technical/911report/chapter-8.txt:                were gaps in the FBI headquarters teletype.
@@ -90,7 +92,7 @@ technical/plos/journal.pbio.0020064.txt:        the UCSD–NIDCR researchers too
 ## The 'grep' command: Option -b
 
 * Display the block number at the beginning of each line.
-
+useful : -B is the option which prints the specified N lines before the match. When doing a grep on a huge file, it may be useful to see some lines after the match.
 Example "ucsd"
 
 ```
@@ -145,6 +147,7 @@ technical/biomed/1471-2164-4-6.txt:22248:        http://www.cstl.nist.gov/biotec
 ## The 'grep' command: Option -w
 
 * Display matching whole word.
+* useful : searching for whole word, so we can find only typing word will show out all the lines eventhought the word is normal.
 
 Example "fbi"
 
@@ -155,7 +158,7 @@ technical/911report/chapter-13.3.txt:                updated June 18, 2003 (onli
 at www.fas.org/irp/agency/doj/fbi/fbi_hist.htm). For
 ```
 
-* Display olny "fbi" whole word.
+* Display "fbi" and "FBI" whole word.
 
 Example "Korea"
 
@@ -179,7 +182,7 @@ technical/biomed/1472-6920-2-3.txt:        South Korea [ 5 ] and for a Turkish m
 technical/plos/journal.pbio.0020121.txt:        imported cases in the Republic of Korea, but surveillance has not been thorough in North
 ```
 
-* Display olny "Korea" whole word.
+* Display  "Korea" and "Korea" whole word.
 
 Example "UCSD"
 
@@ -207,4 +210,4 @@ but the UCSD–NIDCR researchers suggest that the residual
 technical/plos/journal.pbio.0020064.txt:        the UCSD–NIDCR researchers took PLCβ2 knockout mice, which did not respond to bitter,
 ```
 
-* Only display "UCSD" not display "ucsd"
+*  display "UCSD" and "ucsd"
