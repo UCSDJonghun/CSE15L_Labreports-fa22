@@ -5,3 +5,7 @@
 In DocSearchServer.java, change the name of the start parameter of getfiles, and its uses, to be called base. Keystrokes in order (week6-skill-demo as the starting point:
 
 1. Open the file with using vim
+
+![image](https://user-images.githubusercontent.com/114322721/201586420-8a5b792b-18a3-4674-b1cf-2fabc51efeb2.png)
+
+2. Press <Enter>
