@@ -1,6 +1,6 @@
-## Week 7 Lab Report
+# Week 7 Lab Report
 
-# part 1
+## part 1
 
 In DocSearchServer.java, change the name of the start parameter of getfiles, and its uses, to be called base. Keystrokes in order (week6-skill-demo as the starting point:
 
@@ -23,3 +23,6 @@ In DocSearchServer.java, change the name of the start parameter of getfiles, and
   5. I typied n.n. :wq, I repeated the previous action and saved to leave the file.
   
   ![image](https://user-images.githubusercontent.com/114322721/201589311-6d927aec-f43c-4cf7-8213-49f562b08dc3.png)
+  
+  
+## part 2
