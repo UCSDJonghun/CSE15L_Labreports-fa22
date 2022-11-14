@@ -1,6 +1,6 @@
 # Week 7 Lab Report
 
-## part 1
+## Part 1
 
 In DocSearchServer.java, change the name of the start parameter of getfiles, and its uses, to be called base. Keystrokes in order (week6-skill-demo as the starting point:
 
@@ -25,4 +25,16 @@ In DocSearchServer.java, change the name of the start parameter of getfiles, and
   ![image](https://user-images.githubusercontent.com/114322721/201589311-6d927aec-f43c-4cf7-8213-49f562b08dc3.png)
   
   
-## part 2
+## Part 2
+
+I took around 1 minute and 28 seconds to edit the file, scp and run the in the remote server.
+
+I took around 1 minuite to edit the file and run in the remote server.
+  
+* Which of these two styles would you prefer using if you had to work on a program that you were running remotely, and why?
+  
+I prefre editing the task in vim becasue It is faster than visual studio code and scp it. 
+  
+* What about the project or task might factor into your decision one way or another? (If nothing would affect your decision, say so and why!)
+  
+I prefer using visual studio code when my task need to edit or replace many lines of the code, but I prefer vim when I need edit or replace a few lines of the code.
