@@ -10,4 +10,4 @@
 
 [Lab Report 3](https://ucsdjonghun.github.io/CSE15L_Labreports-fa22/lab-report4-week-5)
 
-[Lab Report 4] (https://ucsdjonghun.github.io/CSE15L_Labreports-fa22/Week-7-Lab-Report)
+[Lab Report 4](https://ucsdjonghun.github.io/CSE15L_Labreports-fa22/Week-7-Lab-Report)
