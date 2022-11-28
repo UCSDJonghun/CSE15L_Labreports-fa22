@@ -24,7 +24,7 @@ javac ListExamples.java 2> err.txt > out.txt
 if [ $? -ne 0 ]
     then
         echo "Compile faild."
-        echo "Your score is 0%"
+        echo "Your score is 50%"
         exit 
 fi
 
@@ -57,3 +57,10 @@ Using : https://github.com/ucsd-cse15l-f22/list-methods-filename
 code receive : 0% 
 
 ![image](https://user-images.githubusercontent.com/114322721/204201581-1a0a026e-8c81-40ef-b2b2-b384f3db8804.png)
+
+Using : https://github.com/ucsd-cse15l-f22/list-methods-compile-error
+
+![image](https://user-images.githubusercontent.com/114322721/204203396-a2491f26-c327-46b7-8dd2-2f94706a733d.png)
+
+code receive : file found but compile faild.
+
