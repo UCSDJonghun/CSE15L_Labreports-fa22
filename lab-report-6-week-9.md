@@ -48,4 +48,12 @@ fi
 
 Using : https://github.com/ucsd-cse15l-f22/list-methods-corrected
 
+Code receive 100%
+
 ![image](https://user-images.githubusercontent.com/114322721/204200631-4c6fccc6-4fd5-4c87-9876-b6f828655174.png)
+
+Using : https://github.com/ucsd-cse15l-f22/list-methods-filename
+
+code receive : 0% 
+
+![image](https://user-images.githubusercontent.com/114322721/204201581-1a0a026e-8c81-40ef-b2b2-b384f3db8804.png)
