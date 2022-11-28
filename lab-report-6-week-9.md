@@ -1,5 +1,7 @@
 # Week 9 Lab Report
 
+## grade.sh code :
+
 ```
 CPATH=".:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar"
 
@@ -40,3 +42,10 @@ if [ $? -ne 0 ]
         echo "Your score is 50%, because faild the test."
         exit 
 fi
+```
+
+# Screenshots of three different.
+
+Using : https://github.com/ucsd-cse15l-f22/list-methods-corrected
+
+![image](https://user-images.githubusercontent.com/114322721/204200631-4c6fccc6-4fd5-4c87-9876-b6f828655174.png)
